@@ -16,6 +16,8 @@
 		F85C5D0527F7A135004A6EEB /* DecimalsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85C5D0427F7A135004A6EEB /* DecimalsUtils.swift */; };
 		F85C5D0727F7A182004A6EEB /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85C5D0627F7A182004A6EEB /* CurrencyFormatter.swift */; };
 		F8A11BF527F8745900C050A5 /* CurrencyFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A11BF427F8745900C050A5 /* CurrencyFormatterTests.swift */; };
+		F8A11BF727F8901400C050A5 /* NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A11BF627F8901400C050A5 /* NSNotificationName.swift */; };
+		F8A11BF927F892E600C050A5 /* UITextField+SecureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A11BF827F892E600C050A5 /* UITextField+SecureToggle.swift */; };
 		F8C9048127F3BA830058A5A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C9048027F3BA830058A5A3 /* AppDelegate.swift */; };
 		F8C9048527F3BA830058A5A3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C9048427F3BA830058A5A3 /* LoginViewController.swift */; };
 		F8C9048A27F3BA840058A5A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8C9048927F3BA840058A5A3 /* Assets.xcassets */; };
@@ -48,6 +50,8 @@
 		F85C5D0627F7A182004A6EEB /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
 		F8A11BEB27F8739000C050A5 /* iOS-SwiftProjectUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-SwiftProjectUnitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8A11BF427F8745900C050A5 /* CurrencyFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatterTests.swift; sourceTree = "<group>"; };
+		F8A11BF627F8901400C050A5 /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
+		F8A11BF827F892E600C050A5 /* UITextField+SecureToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+SecureToggle.swift"; sourceTree = "<group>"; };
 		F8C9047D27F3BA830058A5A3 /* iOS-SwiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-SwiftProject.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C9048027F3BA830058A5A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8C9048427F3BA830058A5A3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -169,10 +173,12 @@
 		F8EB107F27F5E6C100EB0569 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				F8EB108027F5E6CB00EB0569 /* LocalState.swift */,
 				F85C5CF527F63BB4004A6EEB /* UIViewController+Utils.swift */,
 				F85C5D0427F7A135004A6EEB /* DecimalsUtils.swift */,
+				F8A11BF827F892E600C050A5 /* UITextField+SecureToggle.swift */,
+				F8EB108027F5E6CB00EB0569 /* LocalState.swift */,
 				F85C5D0627F7A182004A6EEB /* CurrencyFormatter.swift */,
+				F8A11BF627F8901400C050A5 /* NSNotificationName.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -300,9 +306,11 @@
 				F8C9049727F3BE190058A5A3 /* LoginView.swift in Sources */,
 				F8EB108127F5E6CB00EB0569 /* LocalState.swift in Sources */,
 				F85C5CFD27F72601004A6EEB /* AccountSummaryHeaderView.swift in Sources */,
+				F8A11BF927F892E600C050A5 /* UITextField+SecureToggle.swift in Sources */,
 				F8EB107E27F5E21600EB0569 /* DummyViewController.swift in Sources */,
 				F85C5D0727F7A182004A6EEB /* CurrencyFormatter.swift in Sources */,
 				F8C9048527F3BA830058A5A3 /* LoginViewController.swift in Sources */,
+				F8A11BF727F8901400C050A5 /* NSNotificationName.swift in Sources */,
 				F85C5D0327F73464004A6EEB /* AccountSummaryCell.swift in Sources */,
 				F8F8F09B27F4980A00CEC272 /* OnboardingViewController.swift in Sources */,
 				F85C5CF827F63CA0004A6EEB /* MainViewController.swift in Sources */,
